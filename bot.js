@@ -6,13 +6,13 @@ const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '2';
+const prefix = '3';
 client.login(process.env.BOT_TOKEN); 
 client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('ready', () => {
-  client.user.setGame('2help.','https://www.twitch.tv/peery13');
+  client.user.setGame('3help.','https://www.twitch.tv/peery13');
 });
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
